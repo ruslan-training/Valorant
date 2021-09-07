@@ -14,7 +14,6 @@
 }
 .bg-frame {
     background: #1F2326;
-    position: relative;
     height: 2323px;
     width: 100%;
     overflow: hidden;
@@ -73,8 +72,8 @@
     background:#FFF;
     width: 268px;
     height: 268px;
-    top: 180px;
-    right: 104px
+    top: 110px;
+    right: 250px
 }
 .circle-470 {
     background:#FFF;
@@ -101,14 +100,16 @@
 }
 .content-page {
     position: relative;
-    padding: 300px 0;
+    padding: 40px 0 300px 0;
     z-index: 22;
+    overflow: hidden;
 }
 .header {
     display: flex;
     align-items: center;
     background: #1F2326;
     padding: 50px 0 50px 75px;
+    border: 1px solid #FF4656;
     border-radius: 40px 40px 0 0;
 }
 .logo-box {
@@ -141,6 +142,11 @@
     color: #FFFFFF;
     text-transform: uppercase;
     list-style: none;
+    transition: all .2s ease;
+}
+.menu-list a:hover, .login-nav:hover, .news-text:hover, .discover-text:hover {
+    color: #FF4656;
+    transition: all .2s ease;
 }
 .menu-list li {
     margin-right: 65px;
@@ -150,6 +156,7 @@
 }
 .news-text, .discover-text, .login-text, .login-img {
     margin-right: 15px;
+    transition: all .2s ease;
 }
 .top-menu {
     margin-left: 90px;
@@ -162,6 +169,7 @@
     display: flex;
     align-items: center;
 }
+}
 .login-img img {
     width: 100%;
     height: 100%;
@@ -171,6 +179,7 @@
     background: url(img/main/bg.png) center / cover no-repeat;
     mix-blend-mode: multiply;
     height: 1499px;
+    background-color: #FF4656;
 }
 
 @media (max-width:2233px) {
