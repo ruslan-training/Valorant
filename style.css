@@ -24,6 +24,7 @@ body {
     background: #1F2326;
 }
 .bg-frame {
+    position: relative;
     background: #1F2326;
     height: 2323px;
     width: 100%;
@@ -62,7 +63,7 @@ body {
     background: #FF4656;
     width: 44px;
     height: 44px;
-    top: 75px;
+    top: 30px;
     right: 220px;
 }
 .circle-63 {
@@ -84,7 +85,7 @@ body {
     width: 268px;
     height: 268px;
     top: 110px;
-    right: 250px
+    right: 105px
 }
 .circle-470 {
     background:#FFF;
@@ -217,9 +218,6 @@ body {
     border: 2px solid #1F2326;
     border-radius: 5px 0 0 0;
 }
-.hero-icon:hover {
-    background: #FFFFFF;
-}
 .hero-name, .hero-country {
     position: absolute;
     left: 0;
@@ -279,8 +277,110 @@ body {
     display: flex;
     justify-content: space-between;
     max-width: 350px;
+    width: 100%;  
+}
+.hero-ability._hover {
+    background-color: #FFF;
+}
+.hero-name._hover {
+    -webkit-text-stroke: 3px #1F2326;
+}
+.hero-icon._hover {
+    background-color: #fff;
+}
+.footer-body {
+    position: relative;
+    height: 132px;
+    background-color: #fff;
+    border-radius: 0 0 40px 40px;
+}
+.skill-description{
+    width: 724px;
+    height: 248px;
+    background: #F8F8F8;
+    border: 2px solid #000000;
+    position: absolute;
+}
+.skill-description._st {
+    left: -125px;
+    top: -200px;
+}
+.skill-description._nd {
+    left: 680px;
+    top: -200px;
+}
+.skill-description._rd {
+    right: 450px;
+    top: -200px;
+}
+.slider {
+    position: absolute;
+    width: 219px;
+    height: 248px;
+    top: -200px;
+    right: 130px;
+    background: #F8F8F8;
+    border: 2px solid #000000;
+}
+.skill-type {
+    font-family: "Druk Wide";
+    font-weight: 500;
+    font-size: 40px;
+    color: #C4C4C4;
+    margin-bottom: 30px;
+}
+.skill-tree {
+    font-family: "Druk Wide";
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.skill-descr {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #1F2326;
+    max-width: 315px;
     width: 100%;
-    
+}
+.description-text {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0 0 60px;
+}
+.description-icon {
+    position: relative;
+}
+.descr-icon {
+    position: absolute;
+    width: 167px;
+    bottom: 50px;
+    right: 70px;
+}
+.descr-icon img {
+    width: 100%;
+}
+.bg-object {
+    position: absolute;
+    width: 190px;
+    height: 182px;
+    right: 120px;
+    bottom: 0;
+    background: #FF4656;
+}
+.slider-nav {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.slider-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media (max-width:2233px) {
