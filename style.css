@@ -181,7 +181,6 @@ body {
     display: flex;
     align-items: center;
 }
-}
 .login-img img {
     width: 100%;
     height: 100%;
@@ -201,6 +200,17 @@ body {
     position: relative;
     background: #1F2326;
     margin-right: 140px;
+}
+.hero-icon._white {
+    background: #FFF;
+    border: 0;
+}
+.hero-name._white {
+    -webkit-text-stroke: 3px #1F2326;
+    -webkit-text-fill-color: transparent;
+}
+.hero-ability__inner._white, .hero-ability._white, .hero-box._white {
+    background: #FFF;
 }
 .hero-frame-text {
     font-family: "Druk Wide";
